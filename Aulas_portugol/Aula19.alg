@@ -11,9 +11,7 @@ inicio
     contador <- num 
     divisor <- 0
     repita
-   
     
-
         se(num % contador = 0)entao
             divisor <- divisor + 1
         fimse
