@@ -12,6 +12,9 @@ int main(){
     peri = 2 * pi * r;
     area = r * r * pi;
 
+    printf("O perímetro do círculo é %.4f\n", peri);
+    printf("A área do círculo é %.4f", area);
 
+    return 0;
 }
 
