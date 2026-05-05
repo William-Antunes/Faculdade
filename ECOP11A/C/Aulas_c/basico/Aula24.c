@@ -29,14 +29,17 @@ int main() {
                     printf("Ponto invalido\n");
                  else if (x == n || y == m) 
                     printf("Divisa\n");
-                 else if( x < n && y > m)
-                    printf("NO\n");
-                 else if (x > n && y > m)
-                    printf("NE\n");
-                else if (x < n && y < m)
-                    printf("SO\n");
-                else if (x > n && y < m)
-                    printf("SE\n");
+                    else if (x < n)
+                        if (y < m)
+                            printf("SO\n");
+                        else
+                            printf("NO\n");
+                    else
+                        if (y < m)
+                            printf("SE\n");
+                        else
+                            printf("NE\n");
+
             }
             }
 

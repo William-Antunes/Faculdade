@@ -18,7 +18,7 @@ int main() {
         else
             printf("Faça direito\n");
     }
-    printf("A quantidade de peças boas é %d\nE a quantidade de peças ruins é %d\nO percentual com defeito é %d%%", ok, defeito, (defeito / 20));
+    printf("A quantidade de peças boas é %d\nE a quantidade de peças ruins é %d\nO percentual com defeito é %.2f%%", ok, defeito, (float)(defeito) / 20 * 100);
 
     return 0;
 }
