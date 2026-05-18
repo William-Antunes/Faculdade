@@ -10,7 +10,7 @@ int main(){
             scanf("%d", &mat1[i][j]);
         }
     }
-    // trnasposta da matriz 1 para a matriz 2
+    
     for(int i = 0; i < 2; i++){
         for(int j = 0; j < 3; j++){
             mat2[i][j] = mat1[j][i];
