@@ -1,7 +1,7 @@
 #include <stdio.h>#
 #include <string.h>
 
-int profund(char *cod, int nivel){// recursivo
+int profund(char *cod, int nivel){
     if(cod[nivel] == '\0'){
         return 1;
     }else {

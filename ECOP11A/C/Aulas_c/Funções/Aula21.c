@@ -10,7 +10,7 @@ void resto(int num, int den){ //sem usar % e com recursao
         resto(num - den, den);
     }
 
-}
+} 
 
 
 int main(){

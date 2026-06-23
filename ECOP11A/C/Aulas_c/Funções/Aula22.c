@@ -15,7 +15,7 @@ int main(){
 
 
     printf("Diga quais os números vc quer multiplicar: ");
-    scanf("%d %d", &num1, &num2);
+    scanf("%d %d", &num, &num2);
 
     printf("A multiplicação da: %d", multi(num1, num2, &contador));
 }
