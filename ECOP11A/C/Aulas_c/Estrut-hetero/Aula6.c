@@ -49,7 +49,7 @@ float valormedio(livro livros[], int sz){
         if(livros[i].quantidade > 0)
             quantia += livros[i].quantidade;
     }
-    int media = 1.0*total / quantia;
+    return 1.0*total / quantia;
 }
 
 int main(){
@@ -71,7 +71,7 @@ int main(){
 
     while(1){
         system("cls");
-        printf("Digite o valor da opção que vc vai querer:\n ");
+        printf("Digite o valor da opção que vc vai querer:\n");
         printf("1- Listar livros disponiveis\n");
         printf("2- Buscar por titulo\n");
         printf("3- Buscar por autor\n");
@@ -97,10 +97,10 @@ int main(){
                 autor(livros, sz, escritor);
                 break;
             case 4:
-                printf("Valor total dos livros em estoque: %d\n", valortotal(livros, sz));
+                printf("Valor total dos livros em estoque: %.2f\n", valortotal(livros, sz));
                 break;
             case 5:
-                printf("Valor medio dos livros em estoque: %d\n", valormedio(livros, sz));
+                printf("Valor medio dos livros em estoque: %.2f\n", valormedio(livros, sz));
                 break;
             case 6:
                 return 0;
